@@ -1,0 +1,8 @@
+{
+  "Template": {
+    "TemplateName": "Quark_Welcome_Template",
+    "SubjectPart": "Welcome to {{applicationName}}",
+    "TextPart": "Hello {{name}}, your account is ready at {{applicationName}}! Your account is registered with the following email: {{email}}. <p>Visit our website to learn more about <a href={{homeUrl}}>{{applicationName}}</a>.",
+    "HtmlPart": "<p>Hello {{name}},</p> <p>Your account with {{applicationName}} is ready!</p> <p>Your account is registered with the following email: <b>{{email}}</b>.</p> <p>Visit our website to learn more about <a href={{homeUrl}}>{{applicationName}}</a>.</p> <p><i>This email was sent from an address that cannot accept incoming email. Please do not reply to this message.<i></p>"
+  }
+}
