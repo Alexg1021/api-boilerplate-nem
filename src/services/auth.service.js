@@ -8,6 +8,7 @@ const unprotectedRoutes = [
   { path: "/api/v1/auth/login", method: "POST" },
   { path: "/api/v1/auth/logout", method: "GET" },
   { path: "/api/v1/users/reset-password", method: "PUT,POST" },
+  { path: "/api/v1/users", method: "POST" },
   { path: "/api/v1/health-check", method: "GET" },
 ];
 
