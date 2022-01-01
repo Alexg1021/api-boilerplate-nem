@@ -24,7 +24,8 @@ dotenv.config();
       return console.log('Console Connected!');
     } 
     catch (e) {
-      console.log(e);
+      console.log("There was an error connecting to the console!");
+      return console.error(e);
     }
   }
 
